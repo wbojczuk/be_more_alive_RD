@@ -1,0 +1,33 @@
+.enrichment{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+}
+
+.enrichment{
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 200%;
+    color: var(--secondary-text-color);
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+
+    .enrichment{
+        font-size: 3rem;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .enrichment{
+        font-size: 2rem;
+        line-height: 250%;
+    }
+}

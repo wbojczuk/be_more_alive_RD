@@ -1,8 +1,8 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `Testimonies | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `Testimonies | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Endorsements | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Endorsements | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -23,7 +23,7 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function TestimoniesPage(){
+export default function EndorsementsPage(){
 	 return(
 	 	 <>
 

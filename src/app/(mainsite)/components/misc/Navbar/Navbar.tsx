@@ -23,7 +23,7 @@ export default function Navbar() {
   const aboutRef: any = useRef()
   const programsRef: any = useRef()
   const contactRef: any = useRef()
-  const testimoniesRef: any = useRef()
+  const endorsementsRef: any = useRef()
 
   const hamburgerRef: any = useRef()
   const contentRef: any = useRef()
@@ -48,8 +48,8 @@ export default function Navbar() {
       ref: homeRef
     },
     {
-      triggers: ["/testimonies"],
-      ref: testimoniesRef
+      triggers: ["/endorsements"],
+      ref: endorsementsRef
     },
     {
       triggers: ["/contact"],
@@ -187,9 +187,9 @@ export default function Navbar() {
           />
 
           <NavOption
-          title="Testimonies"
-          url="/testimonies"
-          ref={testimoniesRef}
+          title="Endorsements"
+          url="/endorsements"
+          ref={endorsementsRef}
           />
 
           <NavOption

@@ -1,0 +1,64 @@
+.goals{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+}
+
+.goalWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.goal{
+    text-decoration: none;
+    position: relative;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22%;
+    aspect-ratio: 1/0.5;
+    padding: 3% 2%;
+    text-align: center;
+    margin: 2vw;
+}
+
+.goal h3{
+    z-index: 3;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.shader{
+    z-index: 2;
+}
+
+.bg{
+    z-index: 1;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .goal{
+        width: 26%;
+        padding: 3% 2%;
+        margin: 2vw 1vw;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .goal{
+        width: 40%;
+        aspect-ratio: 1/0.7;
+        padding: 3% 2%;
+        margin: 3vw 2%;
+    }
+}

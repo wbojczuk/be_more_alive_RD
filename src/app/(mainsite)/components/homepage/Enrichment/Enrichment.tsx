@@ -9,7 +9,7 @@ return (
         <span className="underline">Enrichment</span>
     </h2>
  
-    <img src='/img/men.png' alt='Image of Men' className='bg-img' />
+    <img src='/img/men.webp' alt='Image of Men' className='bg-img' />
     <div className='shader-dark'></div>
  </div>
 )};

@@ -26,7 +26,7 @@ export default function ContactInfo() {
             </a>
             </div>
 
-            <img src="/img/contact.png" alt="image of people sittiing on bench" className="bg-img" />
+            <img src="/img/contact.webp" alt="image of people sittiing on bench" className="bg-img" />
             <div className="shader"></div>
         </div>
     </section>

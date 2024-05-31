@@ -6,7 +6,7 @@ export default function Mission() {
   return (
     <section className={styles.section}>
         <div className={styles.imgWrapper}>
-            <img className={styles.img} src={"/img/mission.png"} width={360} height={600} alt="Image of the Pastor" />
+            <img className={styles.img} src={"/img/mission.webp"} width={360} height={600} alt="Image of the Pastor" />
         </div>
         
 
@@ -20,7 +20,7 @@ Led by founder Michael Hall, our Men's Discipleship and Development initiative e
             <a href="/contact" className="main-link">Make a Difference</a>
         </div>
 
-        <img src="/img/cross.png" alt="image of the cross" className="bg-img" />
+        <img src="/img/cross.webp" alt="image of the cross" className="bg-img" />
         <div className="shader" style={{backgroundColor: "rgba(255,255,255,.95)"}}></div>
     </section>
   )

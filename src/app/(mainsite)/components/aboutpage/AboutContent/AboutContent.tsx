@@ -6,7 +6,7 @@ export default function AboutContent() {
   return (
     <section className={styles.section}>
         <div className={styles.imgWrapper}>
-            <img className={styles.img} src={"/img/mike.png"} width={360} height={600} alt="Image of Mike" />
+            <img className={styles.img} src={"/img/mike.webp"} width={360} height={600} alt="Image of Mike" />
         </div>
         
 
@@ -18,7 +18,7 @@ export default function AboutContent() {
             <a href="/contact" className="main-link">Make a Difference</a>
         </div>
 
-        <img src="/img/cross.png" alt="image of the cross" className="bg-img" />
+        <img src="/img/cross.webp" alt="image of the cross" className="bg-img" />
         <div className="shader" style={{backgroundColor: "rgba(255,255,255,.95)"}}></div>
     </section>
   )

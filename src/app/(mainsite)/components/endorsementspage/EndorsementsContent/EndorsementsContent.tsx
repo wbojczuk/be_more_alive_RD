@@ -5,13 +5,13 @@ return (
  <div className={styles.endorsementsContent}>
     <div className={styles.websiteWrapper}>
         <div className={styles.website}>
-            <img src="/img/website1.png" alt="image of external site" />
+            <img src="/img/website1.webp" alt="image of external site" />
             <div className={`center ${styles.linkWrapper}`}>
                 <a className='main-link' target='_blank' href='https://theurbannews.com/lifestyles/2024/a-fathers-story'>Visit Site</a>
             </div>
         </div>
         <div className={styles.website}>
-            <img src="/img/website2.png" alt="image of external site" />
+            <img src="/img/website2.webp" alt="image of external site" />
             <div className={`center ${styles.linkWrapper}`}>
                 <a className='main-link' target='_blank' href='https://wlos.com/news/local/addressing-the-gun-violence-epidemic-nonprofit-leaders-michael-hallefforts-amid-troubling-arrests-my-daddy-taught-me-that-generation2generation-rontae-harper-tristin-maewether-chase-van-leeuwen-marckia-jones'>Visit Site</a>
             </div>

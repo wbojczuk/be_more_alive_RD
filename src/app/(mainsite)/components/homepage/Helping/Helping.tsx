@@ -10,7 +10,7 @@ return (
 
     <a href="https://venmo.com/code?user_id=3291848516829184263" target='_blank' className="main-link">Donate</a>
  
-    <img style={{objectPosition: "top"}} src='/img/helping.png' alt='Image of Volunteers' className='bg-img' />
+    <img style={{objectPosition: "top"}} src='/img/helping.webp' alt='Image of Volunteers' className='bg-img' />
     <div className='gradient-shader'></div>
  </div>
 )};

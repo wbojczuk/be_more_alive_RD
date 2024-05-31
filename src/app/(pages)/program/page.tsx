@@ -1,11 +1,11 @@
-import AboutContent from "@/app/(mainsite)/components/aboutpage/AboutContent/AboutContent"
-import Helping from "@/app/(mainsite)/components/homepage/Helping/Helping"
+import Mission from "@/app/(mainsite)/components/homepage/Mission/Mission"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
+import FathersMatter from "@/app/(mainsite)/components/programpage/FathersMatter/FathersMatter"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `About | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `About | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Program | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Program | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -26,12 +26,12 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function AboutPage(){
+export default function ProgramPage(){
 	 return(
 	 	 <>
-			<PageTitle title="About" subtitle="Enriching men's lives through a Bible-based initiative." />
-			<AboutContent />
-			<Helping />
+			<PageTitle title="What We Do" subtitle="Empowering men to lead balanced and fulfilling lives" />
+			<FathersMatter />
+			<Mission />
 		 </>
 	 )
 }

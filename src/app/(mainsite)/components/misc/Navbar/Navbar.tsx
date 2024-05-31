@@ -39,7 +39,7 @@ export default function Navbar() {
       ref: aboutRef
     },
     {
-      triggers: ["/programs"],
+      triggers: ["/program"],
       ref: programsRef
     },
     {
@@ -180,8 +180,8 @@ export default function Navbar() {
           />
 
           <NavOption
-          title="Programs"
-          url="/programs"
+          title="Program"
+          url="/program"
           ref={programsRef}
           />
 

@@ -1,0 +1,101 @@
+.endorsementsContent{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+}
+
+.websiteWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    padding: 2vw 0;
+}
+
+.website{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    padding: 1vw;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+
+.website img{
+    width: 100%;
+    aspect-ratio: 1/0.6;
+    object-fit: cover;
+    margin-bottom: 2vw;
+}
+
+.endorsement{
+    padding: 4vw 0;
+}
+
+.endorsement .author{
+    text-align: center;
+    font-weight: 400;
+}
+
+.content{
+    padding: 2vw 25%;
+    white-space: pre-wrap;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .websiteWrapper{
+        gap: 10vw;
+        padding: 3vw 0;
+    }
+    
+    .website{
+        width: 35%;
+        padding: 2vw;
+    }
+    
+    .website img{
+        margin-bottom: 3vw;
+    }
+    
+    .endorsement{
+        padding: 6vw 0;
+    }
+    
+    .content{
+        padding: 2vw 18%;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .websiteWrapper{
+        flex-direction: column;
+        gap: 10vw;
+        padding: 4vw 0;
+    }
+    
+    .website{
+        width: 60%;
+        padding: 4vw;
+    }
+    
+    .website img{
+        margin-bottom: 5vw;
+    }
+    
+    .endorsement{
+        padding: 8vw 0;
+    }
+    
+    .content{
+        padding: 4vw 8%;
+        font-size: 1.2rem;
+    }
+}

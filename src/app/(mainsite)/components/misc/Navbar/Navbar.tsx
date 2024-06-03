@@ -179,6 +179,12 @@ export default function Navbar() {
           ref={aboutRef}
           />
 
+<NavOption
+          title="Community"
+          url="/community"
+          ref={aboutRef}
+          />
+
           <NavOption
           title="Program"
           url="/program"

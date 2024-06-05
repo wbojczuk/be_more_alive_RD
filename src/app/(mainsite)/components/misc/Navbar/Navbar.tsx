@@ -20,6 +20,7 @@ export default function Navbar() {
 
   const homeRef: any = useRef()
   const aboutRef: any = useRef()
+  const communityRef: any = useRef()
   const programsRef: any = useRef()
   const contactRef: any = useRef()
   const endorsementsRef: any = useRef()
@@ -37,6 +38,10 @@ export default function Navbar() {
     {
       triggers: ["/about"],
       ref: aboutRef
+    },
+    {
+      triggers: ["/community"],
+      ref: communityRef
     },
     {
       triggers: ["/program"],
@@ -182,7 +187,7 @@ export default function Navbar() {
 <NavOption
           title="Community"
           url="/community"
-          ref={aboutRef}
+          ref={communityRef}
           />
 
           <NavOption

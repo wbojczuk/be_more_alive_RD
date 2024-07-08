@@ -4,6 +4,7 @@ import Goals from "@/app/(mainsite)/components/homepage/Goals/Goals";
 import Header from "@/app/(mainsite)/components/homepage/Header/Header";
 import Helping from "@/app/(mainsite)/components/homepage/Helping/Helping";
 import Mission from "@/app/(mainsite)/components/homepage/Mission/Mission";
+import Sponsor from "@/app/(mainsite)/components/homepage/Sponsor/Sponsor";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
     <>
       <Header />
       <Enrichment />
+      <Sponsor />
       <Goals />
       <Helping />
       <BibleVerse />

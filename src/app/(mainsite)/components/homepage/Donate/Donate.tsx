@@ -8,7 +8,7 @@ return (
  <div className={styles.find}>
 
 <div className="center">
-<h2>Donation Request for the Faith in Family Foundation Event</h2>
+<h2>Donation Request for the Faith Family Foundation Night</h2>
 </div>
 
     <div className={`center ${styles.linkWrapper}`}>

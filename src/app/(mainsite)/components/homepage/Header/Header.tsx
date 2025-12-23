@@ -11,7 +11,7 @@ return (
     <h2>Our mission is to enrich men's lives through a Bible-based initiative</h2>
 
     <div className={`center ${styles.linkWrapper}`}>
-        <Link className='main-link' href='/programs'>Learn More</Link>
+        <Link className='main-link' href='/program'>Learn More</Link>
     </div>
 
     <div className={styles.linksWrapper}>

@@ -20,7 +20,7 @@ Helping men rise above pain, reconnect with purpose, and walk in their identity 
 Rediscover your identity and calling through biblical wisdom, reflection, and guided mentorship.
 Format: 1-on-1 or small group (4–8 sessions)
  <br /><br />
-<Link href="/contact" className='main-link'>Book Call</Link>
+<Link target='_blank' href="https://form.jotform.com/253233582030043" className='main-link'>Start Coaching</Link>
 <br /><br /><div className={styles.divider}></div><br /><br />
 
 <div><h3>Fatherhood & Family Coaching</h3></div>
@@ -29,7 +29,7 @@ Format: 1-on-1 or small group (4–8 sessions)
 For fathers seeking to rebuild trust and reconnect with their children through love and accountability.
 Format: Weekly or 4-week intensive
  <br /><br />
-<Link href="/contact" className='main-link'>Start Coaching</Link>
+<Link target='_blank' href="https://form.jotform.com/253233582030043" className='main-link'>Start Coaching</Link>
 <br /><br /><div className={styles.divider}></div><br /><br />
 
 <div><h3>Emotional Wellness & Trauma Resiliency</h3></div>
@@ -38,7 +38,7 @@ Format: Weekly or 4-week intensive
 Process pain, build emotional discipline, and grow stronger spiritually and mentally.
 Format: 1-on-1 or group (includes journaling + scripture reflection)
  <br /><br />
-<Link href="/contact" className='main-link'>Book a Session</Link>
+<Link target='_blank' href="https://form.jotform.com/253233582030043" className='main-link'>Start Coaching</Link>
 <br /><br /><div className={styles.divider}></div><br /><br />
 
 <div><h3>Kingdom Manhood Coaching</h3></div>
@@ -47,7 +47,7 @@ Format: 1-on-1 or group (includes journaling + scripture reflection)
 Redefine manhood through biblical principles. Build strength, humility, and leadership in your home and community.
 Format: 8-session series or custom mentorship
  <br /><br />
-<Link href="/contact" className='main-link'>Join Now</Link>
+<Link target='_blank' href="/contact" className='main-link'>Join Now</Link>
 <br /><br /><div className={styles.divider}></div><br /><br />
 
 
@@ -57,7 +57,7 @@ Format: 8-session series or custom mentorship
 Support for men seeking intentional, values-driven relationships rooted in healing and discipline.
 Format: 4-week course (optional partner coaching)
  <br /><br />
-<Link href="/contact" className='main-link'>Learn More</Link>
+<Link target='_blank' href="https://form.jotform.com/253233582030043" className='main-link'>Start Coaching</Link>
 <br /><br /><div className={styles.divider}></div><br /><br />
 
 <div><h3>“Check and See” Accountability Coaching</h3></div>
@@ -66,7 +66,7 @@ Format: 4-week course (optional partner coaching)
 Monthly or bi-weekly check-ins to help you stay aligned with your spiritual and personal growth.
 Format: 30-minute virtual or phone sessions
  <br /><br />
-<Link href="/contact" className='main-link'>Book Check-in</Link>
+<Link target='_blank' href="https://form.jotform.com/253233582030043" className='main-link'>Start Coaching</Link>
 <br /><br /><div className={styles.divider}></div><br /><br />
 
 <div><h3>Custom Coaching Packages</h3></div>
@@ -75,13 +75,13 @@ Format: 30-minute virtual or phone sessions
 Mix and match coaching topics like fatherhood, faith, healing, or emotional strength.
 Start with a FREE 30-minute discovery call.
  <br /><br />
-<Link href="/contact" className='main-link'>Schedule Now</Link>
+<Link target='_blank' href="https://form.jotform.com/253233582030043" className='main-link'>Start Coaching</Link>
 <br /><br /><div className={styles.divider}></div><br /><br />
 
 <strong>Need Help Choosing?</strong> <br /><br />
 
 We’ll help you find the right fit. <br /><br />
-<Link href="/contact" className='main-link'>Schedule Now</Link> <br /><br />
+<Link target='_blank' href="https://form.jotform.com/253233582030043" className='main-link'>Start Coaching</Link>
 Email: BeMoreAlive828@gmail.com  <br /><br />
 Call/Text: 828-216-9077 <br />
 </div> 

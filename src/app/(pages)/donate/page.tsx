@@ -3,8 +3,8 @@ import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `Donate | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `Donate | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Faith Family Foundation Night | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Faith Family Foundation Night | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -28,7 +28,7 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 export default function DonatePage(){
 	 return(
 	 	 <>
-			<PageTitle title="Donate" subtitle="" />
+			{/* <PageTitle title="Donate" subtitle="" /> */}
 			<DonateContent />
 	 	 </>
 	 )

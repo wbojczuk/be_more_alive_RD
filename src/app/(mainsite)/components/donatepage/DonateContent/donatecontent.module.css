@@ -12,6 +12,10 @@
     gap: 2vw;
 }
 
+.img{
+    width: 50%;
+}
+
 
 /* SMALL LAPTOP STYLES */
 @media only screen and (min-width: 991px) and (max-width: 1400px){
@@ -24,6 +28,9 @@
         width: 65%;
         font-size: 1.4rem;
     }
+    .img{
+        width: 85%;
+    }
 }
 
  /* MOBILE STYLES */
@@ -31,5 +38,8 @@
     .donateContent p{
         width: 75%;
         font-size: 1.5rem;
+    }
+    .img{
+        width: 100%;
     }
 }

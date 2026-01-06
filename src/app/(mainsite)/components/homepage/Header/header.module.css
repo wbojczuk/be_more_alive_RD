@@ -69,4 +69,8 @@
         padding-top: 8vw;
         gap: 8vw;
     }
+    .linksWrapper1{
+        flex-direction: column;
+        gap: 6vw;
+    }
 }

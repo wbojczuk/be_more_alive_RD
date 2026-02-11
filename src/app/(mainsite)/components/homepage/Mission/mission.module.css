@@ -16,9 +16,9 @@
 
 
 .img{
-    object-fit: cover;
+    object-fit:contain;
     object-position: center;
-    width: 20vw;
+    width: 30vw;
     height: 30vw;
 }
 
@@ -44,10 +44,7 @@
 /* MEDIUM LAPTOP STYLES */
 @media only screen and (min-width: 1401px) and (max-width: 1920px){
 
-    .img{
-        width: 22vw;
-        height: 34vw;
-    }
+    
 }
 
 /* SMALL LAPTOP STYLES */
@@ -55,10 +52,7 @@
     .content{
         width: 35vw;
     }
-    .img{
-        width: 24vw;
-        height: 38vw;
-    }
+   
     .section{
         gap: 10vw;
     }
@@ -72,8 +66,8 @@
         flex-direction: column;
     }
     .img{
-        width: 40vw;
-        height: 55vw;
+        width: 80vw;
+        height: 40vw;
     }
     .content{
         width: 60vw;
@@ -94,8 +88,8 @@
         gap: 12vw;
     }
     .img{
-        width: 60vw;
-        height: 85vw;
+        width: 90vw;
+        height: 50vw;
     }
     .content{
         width: 80vw;

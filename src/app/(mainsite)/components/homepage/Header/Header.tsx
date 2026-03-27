@@ -8,7 +8,7 @@ return (
  <header className={styles.header}>
 
     <h1>Be More Alive</h1>
-    <h2>Our mission is to enrich men's lives through a Bible-based initiative</h2>
+    <h2>Restoring men. Reviving fathers. Transforming communities — one life at a time.</h2>
 
     <div className={`center ${styles.linksWrapper} ${styles.linksWrapper1}`}>
         <Link className='main-link' href='/program'>Learn More</Link>

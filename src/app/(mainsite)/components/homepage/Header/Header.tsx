@@ -14,6 +14,9 @@ return (
         <Link className='main-link' href='/program'>Learn More</Link>
         <Link className='main-link' href="https://g.page/r/CUWiP6pQaryTEAE/review" target='_blank'>Recommend Us!</Link>
     </div>
+    <div className={`center ${styles.linksWrapper} ${styles.linksWrapper1}`}>
+        <Link className='main-link' href='/parenting'>Parenting With A Purpose</Link>
+    </div>
 
     <div className={styles.linksWrapper}>
         <a href="https://www.youtube.com/@bemorealiveministries" target='_blank' className={styles.link}>

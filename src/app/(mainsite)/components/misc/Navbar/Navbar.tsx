@@ -25,6 +25,7 @@ export default function Navbar() {
   const contactRef: any = useRef()
   const endorsementsRef: any = useRef()
   const coachingRef: any = useRef()
+  const parentingRef: any = useRef()
 
   const hamburgerRef: any = useRef()
   const contentRef: any = useRef()
@@ -59,6 +60,10 @@ export default function Navbar() {
     {
       triggers: ["/contact"],
       ref: contactRef
+    },
+     {
+      triggers: ["/parenting"],
+      ref: parentingRef
     },
     {
       triggers: ["/fatherhood-coaching"],
@@ -187,6 +192,11 @@ export default function Navbar() {
           title="About"
           url="/about"
           ref={aboutRef}
+          />
+           <NavOption
+          title="Parenting With A Purpose"
+          url="/parenting"
+          ref={parentingRef}
           />
 
           <NavOption

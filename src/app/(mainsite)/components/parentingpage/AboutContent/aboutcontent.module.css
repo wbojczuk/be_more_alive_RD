@@ -1,6 +1,6 @@
 .section{
     position: relative;
-    padding: var(--section-padding);
+    padding: calc(var(--section-padding-top) * .5) 0 calc(var(--section-padding-top) * .5) 0;
     display: flex;
     align-items: center;
     gap: 8vw;
@@ -13,18 +13,12 @@
     position: relative;
 }
 
-.missions p{
-    padding: 2px !important;
-    margin: 0 !important;
-}
-.missions hr{
-    margin: 10px 0;
-}
+
 
 .img{
-    object-fit:contain;
+    object-fit: cover;
     object-position: center;
-    width: 30vw;
+    width: 20vw;
     height: 30vw;
 }
 
@@ -50,7 +44,10 @@
 /* MEDIUM LAPTOP STYLES */
 @media only screen and (min-width: 1401px) and (max-width: 1920px){
 
-    
+    .img{
+        width: 22vw;
+        height: 34vw;
+    }
 }
 
 /* SMALL LAPTOP STYLES */
@@ -58,7 +55,10 @@
     .content{
         width: 35vw;
     }
-   
+    .img{
+        width: 24vw;
+        height: 38vw;
+    }
     .section{
         gap: 10vw;
     }
@@ -72,8 +72,8 @@
         flex-direction: column;
     }
     .img{
-        width: 80vw;
-        height: 40vw;
+        width: 40vw;
+        height: 55vw;
     }
     .content{
         width: 60vw;
@@ -94,8 +94,8 @@
         gap: 12vw;
     }
     .img{
-        width: 90vw;
-        height: 50vw;
+        width: 60vw;
+        height: 85vw;
     }
     .content{
         width: 80vw;

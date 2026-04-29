@@ -13,19 +13,60 @@ export default function Mission() {
         <div className={styles.content}>
             <h2><span className="underline"><strong>Our</strong> Mission</span></h2>
 
-            <p>Michael Hall is a community chaplain, fatherhood mentor, and founder of Be‑More Alive Ministry in Asheville, NC, a faith-based outreach dedicated to helping men heal, grow, and lead their families with purpose.
-<br /><br />
-Drawing from his own journey through addiction, incarceration, and redemption, Michael walks alongside fathers, returning citizens, and men in crisis with a blend of biblical wisdom, trauma‑informed care, and practical life skills.
-<br /><br />
-Through Be‑More Alive, he leads programs such as Parenting Behind Bars, Doula for Dads, Fatherhood Enrichment, and men’s mental health support groups that create safe spaces for men to tell the truth, confront their pain, and build new patterns for their lives and families.
-<br /><br />
- Michael also serves the wider community through chaplaincy, coaching, and collaboration with local churches and nonprofits, believing that when a man’s heart is transformed, his home and community are transformed too.
-<br /><br />
-The mission of Be‑More Alive Ministry is to see men fully alive in Christ—emotionally, spiritually, and relationally—so they can show up wholeheartedly for their children, partners, and communities.
-We serve justice‑involved fathers, new and expecting dads, and men navigating trauma or transition through discipleship, practical coaching, and community support that honors both their story and their God‑given potential.
-By partnering with local churches, nonprofits, and community agencies, we work to end cycles of fatherlessness and build a culture where men are known, supported, and equipped to lead with love.
-            </p>
-            <a href="/contact" className="main-link">Make a Difference</a>
+            <section className={styles.missions}>
+  <br /><br />
+  <p><em>A safe space for men to grow, reflect, and heal.</em></p>
+
+  <hr />
+
+  <h3>Explore Your Identity</h3>
+  <p>
+    This peer-led program is designed to help men break through stereotypes, build self-awareness, 
+    and engage in real, meaningful conversations. Whether you're working through personal challenges 
+    or simply looking to grow, this circle provides support, accountability, and community.
+  </p>
+
+  <hr />
+
+  <h3>Why Join This Program</h3>
+  <ul>
+    <li>Open and judgment-free environment</li>
+    <li>Real conversations about identity, purpose, and growth</li>
+    <li>Brotherhood and community support</li>
+    <li>Focus on mental, emotional, and spiritual well-being</li>
+  </ul>
+
+  <hr />
+
+  <h3>Program Cost</h3>
+  <p><strong>100% Free</strong></p>
+  <p>
+    Take the first step toward healing and self-discovery—no cost, no pressure, just support.
+  </p>
+
+  <hr />
+
+  <h3>Get Connected</h3>
+  <p>
+    Join us in exploring identity and healing within a supportive community.
+  </p>
+  <ul>
+    <li>Call: 828-216-9077</li>
+    <li>Email: Bemorealive828@gmail.com</li>
+  </ul>
+
+  <hr />
+
+  <h3>Location</h3>
+  <p>NAMI Western Carolina</p>
+  <p>356 Biltmore Ave, Ste 207</p>
+  <p>Asheville, NC 28801</p>
+
+  <hr />
+
+
+</section>
+            <a href="/contact" className="main-link">Start your journey today.</a>
         </div>
 
         <img src="/img/cross.webp" alt="image of the cross" className="bg-img" />

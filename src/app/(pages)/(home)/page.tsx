@@ -12,7 +12,8 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Donate />
+      
+      {/* <Donate /> */}
       <Enrichment />
       <Sponsor />
       <Goals />
